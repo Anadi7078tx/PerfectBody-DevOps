@@ -70,7 +70,7 @@ steps:
   displayName: 'Signing and aligning APK'
   inputs:
     apkFiles: '$(Parameters.appFiles)'
-    jarsignerKeystoreFile: '295e9c4e-9fd4-4376-853d-7e1c31cd6f66'
+    jarsignerKeystoreFile: '739bc7950ca980ce7b5079aa88f42048610ae77d'
     jarsignerKeystorePassword: '$(Keystore.Password)'
     jarsignerKeystoreAlias: '$(Keystore.Alias)'
     jarsignerKeyPassword: '$(Keystore.Password)'
